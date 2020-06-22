@@ -60,7 +60,7 @@ export default class extends Vue {
   private list: ITransactionData[] = []
 
   created() {
-    this.fetchData()
+    // this.fetchData()
   }
 
   private async fetchData() {

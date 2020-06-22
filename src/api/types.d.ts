@@ -42,3 +42,16 @@ export interface IUserData {
   introduction: string
   roles: string[]
 }
+
+export interface IGameData {
+  id: number
+  name: string
+  appId: string
+  platform: string
+  packageName: string
+}
+
+export interface IPlatformData {
+  id: number
+  name: string
+}

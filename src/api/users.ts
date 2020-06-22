@@ -9,8 +9,8 @@ export const getUsers = (params: any) =>
 
 export const getUserInfo = (data: any) =>
   request({
-    url: '/users/info',
-    method: 'post',
+    url: '/getInfo',
+    method: 'get',
     data
   })
 
@@ -35,20 +35,20 @@ export const deleteUser = (username: string) =>
 
 export const login = (data: any) =>
   request({
-    url: '/users/login',
+    url: '/login',
     method: 'post',
     data
   })
 
 export const logout = () =>
   request({
-    url: '/users/logout',
+    url: '/logout',
     method: 'post'
   })
 
 export const register = (data: any) =>
   request({
-    url: '/users/register',
+    url: '/register',
     method: 'post',
     data
   })

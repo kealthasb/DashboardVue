@@ -62,7 +62,10 @@ export default {
     clipboard: 'Clipboard',
     i18n: 'I18n',
     externalLink: 'External Link',
-    profile: 'Profile'
+    profile: 'Profile',
+    config: '参数配置',
+    gameConfig: '游戏管理',
+    platformConfig: '平台管理',
   },
   navbar: {
     logOut: 'Log Out',
