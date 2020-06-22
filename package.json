@@ -1,8 +1,8 @@
 {
-  "name": "vue-typescript-admin-template",
+  "name": "DashboardVue",
   "version": "1.0.0",
   "private": true,
-  "author": "Chong Guo <armourcy@gmail.com>",
+  "author": "Ralph <kealthasb@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -115,7 +115,7 @@
     "webpack": "^4.43.0"
   },
   "bugs": {
-    "url": "https://github.com/armour/vue-typescript-admin-template/issues"
+    "url": "https://github.com/kealthasb/DashboardVue/issues"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -134,6 +134,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armour/vue-typescript-admin-template.git"
+    "url": "git+git@github.com:kealthasb/DashboardVue.git"
   }
 }

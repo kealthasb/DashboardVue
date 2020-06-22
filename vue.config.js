@@ -10,7 +10,7 @@ const name = 'Vue Typescript Admin' // TODO: get this variable from setting.ts
 const springPort = 8081
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-typescript-admin-template/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/DashboardVue/' : '/',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   devServer: {

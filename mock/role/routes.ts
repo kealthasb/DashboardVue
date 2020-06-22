@@ -596,7 +596,7 @@ export const asyncRoutes = [
     ]
   },
   {
-    path: 'https://github.com/Armour/vue-typescript-admin-template',
+    path: 'https://github.com/kealthasb/DashboardVue',
     meta: {
       title: 'externalLink',
       icon: 'link'

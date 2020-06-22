@@ -48,7 +48,7 @@
           </router-link>
           <a
             target="_blank"
-            href="https://github.com/armour/vue-typescript-admin-template/"
+            href="https://github.com/kealthasb/DashboardVue/"
           >
             <el-dropdown-item>
               {{ $t('navbar.github') }}
